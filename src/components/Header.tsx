@@ -35,7 +35,7 @@ export const Header: React.FC<HeaderProps> = ({
                   onClick={() => onSelectTab && onSelectTab('dashboard')}
                   className="text-xl font-bold tracking-tight text-white cursor-pointer"
                 >
-                  {lang === 'ur' ? 'راہ (Rah)' : 'Rah'}
+                  Rah راہ
                 </h1>
                 <span className="text-[11px] font-semibold bg-white/10 text-white/85 border border-white/15 px-2 py-0.5 rounded-md">
                   {t('app.tagline')}
