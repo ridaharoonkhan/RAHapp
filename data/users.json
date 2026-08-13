@@ -1,0 +1,16 @@
+[
+  {
+    "id": "5be511b5-9b01-4b31-ac0a-19feca82f1cf",
+    "fullName": "Alisha Batool",
+    "email": "alishabatool@gmail.com",
+    "phone": "",
+    "city": "Islamabad / Rawalpindi",
+    "academicStage": "FSc Pre-Engineering",
+    "targetGoal": "Software Engineering / Computer Science",
+    "avatarId": "caffeine_coder",
+    "bio": "",
+    "registeredAt": "2026-08-12T10:26:58.005Z",
+    "passwordHash": "07f91341f148167f36a9d5603304eb035e850e14148126e044a277f32656316367c2d5d6441c3bb54c25466854b78f06eeb7aa6561a46b9371d45d6100b63aa1",
+    "passwordSalt": "108da7620704f2a2b6c27c94375573bd"
+  }
+]

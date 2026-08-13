@@ -1,0 +1,8 @@
+{
+  "name": "Remix Rah - Pakistani Student Ikigai \u0026 Roadmap Engine",
+  "description": "Helps Pakistani secondary/college students discover their ikigai and build concrete academic and career roadmaps tailored to Pakistan\u0027s education system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

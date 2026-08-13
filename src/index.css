@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Newsreader', Georgia, Cambria, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-brand-green: #1A4D40;
+  --color-brand-light: #E8F0EE;
+  --color-canvas-bg: #FCFAF7;
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #d7e2ea;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-serif-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-display, .font-kanit { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
+.rah-grain {
+  opacity: .35;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.15'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+/* Shared dark, high-contrast application surface for every authenticated page. */
+.rah-theme { color: #d7e2ea; }
+.rah-theme .bg-white { background-color: #151518; }
+.rah-theme .bg-slate-50, .rah-theme .bg-slate-50\/70, .rah-theme .bg-slate-50\/80, .rah-theme .bg-slate-50\/50 { background-color: #1c1c21; }
+.rah-theme .bg-slate-100, .rah-theme .bg-slate-100\/80, .rah-theme .bg-slate-200\/80 { background-color: #292930; }
+.rah-theme .bg-slate-900 { background-color: #2921a8; }
+.rah-theme .border-slate-100, .rah-theme .border-slate-200, .rah-theme .border-slate-200\/80, .rah-theme .border-slate-300 { border-color: rgba(215, 226, 234, .14); }
+.rah-theme .text-slate-900, .rah-theme .text-slate-800, .rah-theme .text-slate-700 { color: #f4f7fb; }
+.rah-theme .text-slate-600, .rah-theme .text-slate-500, .rah-theme .text-slate-400 { color: #aeb9c5; }
+.rah-theme input, .rah-theme select, .rah-theme textarea { color: #f4f7fb; background-color: #202027 !important; border-color: rgba(215, 226, 234, .18) !important; }
+.rah-theme input::placeholder, .rah-theme textarea::placeholder { color: #8190a0; }
+.rah-theme option { background: #202027; color: #f4f7fb; }
+.rah-theme .shadow-sm, .rah-theme .shadow-xs { box-shadow: 0 18px 40px rgba(0, 0, 0, .22); }
+.rah-theme .bg-teal-50, .rah-theme .bg-teal-50\/50, .rah-theme .bg-teal-50\/70 { background-color: rgba(20, 184, 166, .12); }
+.rah-theme .bg-indigo-50, .rah-theme .bg-indigo-50\/50, .rah-theme .bg-indigo-50\/60 { background-color: rgba(129, 140, 248, .12); }
